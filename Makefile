@@ -6,7 +6,7 @@
 #    By: ioleinik <ioleinik@student.42wolfsburg.de> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/05/14 18:13:08 by ioleinik          #+#    #+#              #
-#    Updated: 2021/07/14 17:19:14 by ioleinik         ###   ########.fr        #
+#    Updated: 2021/07/16 12:52:30 by ioleinik         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,7 +33,7 @@ SRC		= ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
 			handle_perc.c init_table.c reset_table.c parse.c read_flags.c \
 			handle_spec.c handle_spec_u.c handle_spec_x.c handle_spec_bigx.c \
 			handle_spec_c.c handle_spec_p.c handle_precis.c ft_memdel.c ft_strnew.c \
-			get_next_line.c
+			get_next_line.c ft_striteri.c
 
 OBJ		= ${SRC:.c=.o}
 

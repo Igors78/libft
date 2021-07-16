@@ -6,7 +6,7 @@
 /*   By: ioleinik <ioleinik@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/14 14:53:13 by ioleinik          #+#    #+#             */
-/*   Updated: 2021/07/14 17:26:27 by ioleinik         ###   ########.fr       */
+/*   Updated: 2021/07/16 12:52:07 by ioleinik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,6 +59,7 @@ void	ft_putchar(char c);
 void	ft_putstr(char *str);
 void	ft_memdel(void **ap);
 char	*ft_strnew(size_t size);
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 
 /*
 ** BONUS PART
